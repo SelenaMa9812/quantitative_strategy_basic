@@ -11,7 +11,7 @@
 
 
 ## 多因子策略
-基于短周期价量特征的多因子选股体系
+[基于短周期价量特征的多因子选股体系](https://github.com/SelenaMa9812/Short-term_Multi-factor_Alpha)
 
 [简单的PE因子策略](https://github.com/myquant/strategy)
 
