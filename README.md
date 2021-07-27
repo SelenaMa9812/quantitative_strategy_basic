@@ -1,9 +1,58 @@
-## quantitative_strategy_baseline
+# Quantitative Strategy Baseline
+## 基础执行
+[仓位管理（1）： 鞅与反鞅策略，凯利公司及其局限](https://www.myquant.cn/community/topic/673/2)
+
+[仓位管理（2）： 凯利公式指导投资与多种资金管理方式](https://www.myquant.cn/community/topic/679)
+
+[从回测到实盘（2）：如何让回测更贴近实盘结果](https://www.myquant.cn/community/topic/665)
+
+[程序化交易（3）：从回测到实盘，还需要注意些什么？](https://www.myquant.cn/community/topic/668)
+
+
+
 ## 多因子策略
 基于短周期价量特征的多因子选股体系
 
+[简单的PE因子策略](https://github.com/myquant/strategy)
 
-## 产品
+[多因子选股(股票)](https://www.myquant.cn/docs/python_strategyies/103)
+
+[多因子选股之有效因子](https://www.myquant.cn/community/topic/690)
+
+[多因子策略之冗余因子](https://www.myquant.cn/community/topic/695)
+
+[多因子选股之策略的实现](https://www.myquant.cn/community/topic/708/2)
+
+## 日内回转策略
+[日内回转交易(股票)](https://www.myquant.cn/docs/python_strategyies/108)
+
+## alpha对冲
+[alpha对冲(股票+期货)](https://www.myquant.cn/docs/python_strategyies/101)
+
+[基于EV/EBITDA倍数估值法的Alpha对冲策略](https://www.myquant.cn/community/topic/522)
+
+## 指数增强
+[指数增强(股票)](https://www.myquant.cn/docs/python_strategyies/105)
+
+## 基本面量化
+[行业轮动(股票)](https://www.myquant.cn/docs/python_strategyies/111)
+
+## 机器学习
+[机器学习(股票)](https://www.myquant.cn/docs/python_strategyies/112)
+
+## 期货相关
+[网格交易(期货)](https://www.myquant.cn/docs/python_strategyies/104)
+
+[跨品种套利(期货)](https://www.myquant.cn/docs/python_strategyies/106)
+
+[跨期套利(期货)](https://www.myquant.cn/docs/python_strategyies/107)
+
+[做市商交易(期货)](https://www.myquant.cn/docs/python_strategyies/109)
+
+[海龟交易法(期货)](https://www.myquant.cn/docs/python_strategyies/110)
+
+
+# 产品
 ### 指数增强策略
 指数增强产品以市场主流指数，如沪深300、中证500指数等为基准，通过预测个股未来涨跌作选股和配置，以期在跟踪基准的基础上获得超额的阿尔法收益。股票模型库涵盖了技术分析和基本面量化两大类。前者利用市场上的高频行情数据捕捉市场中的非理性定价机会实现统计套利，后者则根据财报等基本面数据进行稳健的价值投资。此外，股票模型还会捕捉新闻舆情等提供的投资机会。在收益模型的基础上，风控模型会在选股的同时控制跟踪误差、风险暴露等因素，从而获取最佳的风险调整收益。指数增强产品在指数收益上叠加超额收益，具备高收益、高波动等特征，但是超额收益相对稳定。				
 ### 市场中性策略
